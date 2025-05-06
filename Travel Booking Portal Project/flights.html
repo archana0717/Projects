@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Flight Booking</h1>
+    <form id="flight-search-form">
+        <input type="text" name="departure" placeholder="Departure City" required>
+        <input type="text" name="destination" placeholder="Destination City" required>
+        <input type="date" name="date" required>
+        <input type="number" name="adults" placeholder="Number of Adults" min="1" required>
+        <input type="number" name="children" placeholder="Number of Children" min="0">
+        <button type="submit">Search Flights</button>
+    </form>
+
+    <div id="flight-results" class="results">
+        <ul id="results-list"></ul>
+    </div>
+
+    <div id="passenger-details" class="results">
+        <form id="passenger-form">
+            <div id="passenger-forms"></div>
+            <button type="submit">Book Flight</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

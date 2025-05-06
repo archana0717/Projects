@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Category - Travel Booking Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Travel Booking Portal</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Choose a category to book:</h2>
+            <a href="flights.html"><button>Flights</button></a>
+            <a href="hotels.html"><button>Hotels</button></a>
+            <a href="cars.html"><button>Rental Cars</button></a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Travel Booking Portal. All rights reserved.</p>
+    </footer>
+</body>
+</html>

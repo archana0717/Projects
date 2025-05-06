@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Car Rental</h1>
+    <form id="car-search-form">
+        <input type="text" name="pickup-location" placeholder="Pickup Location" required>
+        <input type="date" name="pickup-date" required>
+        <input type="date" name="return-date" required>
+        <input type="text" name="car-type" placeholder="Car Type" required>
+        <button type="submit">Search Cars</button>
+    </form>
+
+    <div id="car-results" class="results">
+        <ul id="results-list"></ul>
+    </div>
+
+    <div id="renter-details" class="results">
+        <form id="renter-form">
+            <div id="renter-forms"></div>
+            <button type="submit">Book Car</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
